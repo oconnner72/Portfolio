@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-body bg-midnight-black text-white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-racing-red via-engine-orange to-neon-yellow bg-clip-text text-transparent;
+  }
+
+  .racing-gradient {
+    @apply bg-gradient-to-r from-racing-red to-engine-orange;
+  }
+
+  .card-glow {
+    @apply bg-gradient-to-r from-carbon-gray/20 to-chrome-silver/10 backdrop-blur-sm;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .neon-border {
+    @apply border-2 border-electric-green shadow-glow;
+  }
+
+  .speedometer {
+    @apply relative flex items-center justify-center;
+  }
+
+  .speedometer::before {
+    content: "";
+    @apply absolute inset-0 rounded-full border-4 border-chrome-silver/30;
+    animation: rotate 4s linear infinite;
+  }
+
+  .speedometer::after {
+    content: "";
+    @apply absolute w-2 h-2 bg-racing-red rounded-full;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 10px #dc143c;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+
+  .perspective {
+    perspective: 1000px;
+  }
+
+  .transform-gpu {
+    transform-style: preserve-3d;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-midnight-black;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-racing-red rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-engine-orange;
+}
+
+/* Selection */
+::selection {
+  @apply bg-racing-red text-white;
+}
+
+/* Focus styles */
+*:focus {
+  outline: 2px solid #10b981;
+  outline-offset: 2px;
+}

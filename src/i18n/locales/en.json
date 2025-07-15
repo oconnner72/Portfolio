@@ -1,0 +1,121 @@
+{
+  "loading": "Loading...",
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "BRIAN",
+    "title": "Full Stack Developer",
+    "description": "Passionate about creating high-performance web applications with the precision of a race car engineer",
+    "downloadResume": "Download Resume",
+    "viewWork": "View My Work"
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "subtitle": "Driven by passion, powered by code",
+    "sectionTitle": "The Journey",
+    "description1": "Just like how a perfectly tuned engine delivers optimal performance, I believe in crafting clean, efficient code that powers exceptional digital experiences. My passion for cars and motorcycles has taught me the importance of precision, attention to detail, and the pursuit of excellence.",
+    "description2": "Whether I'm debugging code or tuning an engine, I approach every challenge with the same methodical mindset: understand the problem, find the root cause, and implement a solution that stands the test of time.",
+    "passions": {
+      "cars": "Cars",
+      "carsDesc": "Precision engineering meets performance",
+      "motorcycles": "Motorcycles",
+      "motorcyclesDesc": "Freedom and adrenaline combined",
+      "coding": "Coding",
+      "codingDesc": "Building the future, one line at a time",
+      "innovation": "Innovation",
+      "innovationDesc": "Pushing boundaries beyond limits"
+    },
+    "stats": {
+      "experience": "Years Experience",
+      "projects": "Projects Completed",
+      "technologies": "Technologies",
+      "passion": "Passion Level"
+    }
+  },
+  "skills": {
+    "title": "SKILLS",
+    "subtitle": "My technical arsenal - finely tuned for maximum performance",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools & DevOps",
+      "mobile": "Mobile"
+    },
+    "additionalTitle": "Additional Technologies"
+  },
+  "projects": {
+    "title": "PROJECTS",
+    "subtitle": "My digital showroom - crafted with precision and built for speed",
+    "featured": "Featured Projects",
+    "other": "Other Projects",
+    "viewAll": "View All Projects",
+    "viewAllDescription": "Want to see more? Check out my GitHub for additional projects and contributions.",
+    "buttons": {
+      "code": "Code",
+      "demo": "Demo"
+    },
+    "list": {
+      "speedDash": {
+        "title": "SpeedDash Analytics",
+        "description": "Real-time dashboard for monitoring vehicle performance metrics with interactive charts and live data visualization.",
+        "category": "Full Stack"
+      },
+      "racingCRM": {
+        "title": "RacingCRM",
+        "description": "Customer relationship management system for automotive dealerships with inventory management and sales tracking.",
+        "category": "Full Stack"
+      },
+      "motoMeet": {
+        "title": "MotoMeet",
+        "description": "Social platform for motorcycle enthusiasts to organize rides, share experiences, and connect with fellow riders.",
+        "category": "Mobile"
+      },
+      "turboChat": {
+        "title": "TurboChat",
+        "description": "Real-time chat application with video calling features and file sharing capabilities.",
+        "category": "Web App"
+      },
+      "gearShift": {
+        "title": "GearShift E-commerce",
+        "description": "Modern e-commerce platform for automotive parts with advanced search and recommendation engine.",
+        "category": "E-commerce"
+      },
+      "pitStop": {
+        "title": "PitStop Manager",
+        "description": "Task management application with team collaboration features and project tracking capabilities.",
+        "category": "Productivity"
+      }
+    }
+  },
+  "contact": {
+    "title": "GET IN TOUCH",
+    "subtitle": "Ready to start your project? Let's discuss how we can build something amazing together.",
+    "connectTitle": "Let's Connect",
+    "connectDescription": "I'm always interested in hearing about new opportunities and exciting projects. Whether you have a question about my work, want to collaborate, or just want to say hello, I'd love to hear from you!",
+    "followTitle": "Follow Me",
+    "formTitle": "Send a Message",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "Let's work together",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "sending": "Sending...",
+      "send": "Send Message"
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location"
+    },
+    "footer": "© 2025 Brian. Built with React, TypeScript, and a passion for clean code."
+  }
+}

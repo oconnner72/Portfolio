@@ -1,0 +1,121 @@
+{
+  "loading": "Cargando...",
+  "navigation": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "name": "BRIAN",
+    "title": "Desarrollador Full Stack",
+    "description": "Apasionado por crear aplicaciones web de alto rendimiento con la precisión de un ingeniero de carreras",
+    "downloadResume": "Descargar CV",
+    "viewWork": "Ver Mi Trabajo"
+  },
+  "about": {
+    "title": "ACERCA DE MÍ",
+    "subtitle": "Impulsado por la pasión, alimentado por el código",
+    "sectionTitle": "El Viaje",
+    "description1": "Al igual que un motor perfectamente afinado entrega un rendimiento óptimo, creo en crear código limpio y eficiente que impulse experiencias digitales excepcionales. Mi pasión por los coches y las motocicletas me ha enseñado la importancia de la precisión, la atención al detalle y la búsqueda de la excelencia.",
+    "description2": "Ya sea depurando código o afinando un motor, abordo cada desafío con la misma mentalidad metódica: entender el problema, encontrar la causa raíz e implementar una solución que resista el paso del tiempo.",
+    "passions": {
+      "cars": "Coches",
+      "carsDesc": "La ingeniería de precisión se encuentra con el rendimiento",
+      "motorcycles": "Motocicletas",
+      "motorcyclesDesc": "Libertad y adrenalina combinadas",
+      "coding": "Programación",
+      "codingDesc": "Construyendo el futuro, una línea a la vez",
+      "innovation": "Innovación",
+      "innovationDesc": "Empujando los límites más allá"
+    },
+    "stats": {
+      "experience": "Años de Experiencia",
+      "projects": "Proyectos Completados",
+      "technologies": "Tecnologías",
+      "passion": "Nivel de Pasión"
+    }
+  },
+  "skills": {
+    "title": "HABILIDADES",
+    "subtitle": "Mi arsenal técnico - finamente afinado para el máximo rendimiento",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Herramientas y DevOps",
+      "mobile": "Móvil"
+    },
+    "additionalTitle": "Tecnologías Adicionales"
+  },
+  "projects": {
+    "title": "PROYECTOS",
+    "subtitle": "Mi showroom digital - elaborado con precisión y construido para la velocidad",
+    "featured": "Proyectos Destacados",
+    "other": "Otros Proyectos",
+    "viewAll": "Ver Todos los Proyectos",
+    "viewAllDescription": "¿Quieres ver más? Revisa mi GitHub para proyectos adicionales y contribuciones.",
+    "buttons": {
+      "code": "Código",
+      "demo": "Demo"
+    },
+    "list": {
+      "speedDash": {
+        "title": "SpeedDash Analytics",
+        "description": "Panel de control en tiempo real para monitorear métricas de rendimiento de vehículos con gráficos interactivos y visualización de datos en vivo.",
+        "category": "Full Stack"
+      },
+      "racingCRM": {
+        "title": "RacingCRM",
+        "description": "Sistema de gestión de relaciones con clientes para concesionarios automotrices con gestión de inventario y seguimiento de ventas.",
+        "category": "Full Stack"
+      },
+      "motoMeet": {
+        "title": "MotoMeet",
+        "description": "Plataforma social para entusiastas de motocicletas para organizar paseos, compartir experiencias y conectar con otros motociclistas.",
+        "category": "Móvil"
+      },
+      "turboChat": {
+        "title": "TurboChat",
+        "description": "Aplicación de chat en tiempo real con funciones de videollamadas y capacidades de intercambio de archivos.",
+        "category": "Aplicación Web"
+      },
+      "gearShift": {
+        "title": "GearShift E-commerce",
+        "description": "Plataforma de comercio electrónico moderna para partes automotrices con búsqueda avanzada y motor de recomendaciones.",
+        "category": "E-commerce"
+      },
+      "pitStop": {
+        "title": "PitStop Manager",
+        "description": "Aplicación de gestión de tareas con funciones de colaboración en equipo y capacidades de seguimiento de proyectos.",
+        "category": "Productividad"
+      }
+    }
+  },
+  "contact": {
+    "title": "CONTÁCTAME",
+    "subtitle": "¿Listo para comenzar tu proyecto? Hablemos sobre cómo podemos construir algo increíble juntos.",
+    "connectTitle": "Conectemos",
+    "connectDescription": "Siempre estoy interesado en escuchar sobre nuevas oportunidades y proyectos emocionantes. Ya sea que tengas una pregunta sobre mi trabajo, quieras colaborar o simplemente quieras saludar, ¡me encantaría saber de ti!",
+    "followTitle": "Sígueme",
+    "formTitle": "Enviar un Mensaje",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Correo",
+      "emailPlaceholder": "tu@correo.com",
+      "subject": "Asunto",
+      "subjectPlaceholder": "Trabajemos juntos",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntame sobre tu proyecto...",
+      "sending": "Enviando...",
+      "send": "Enviar Mensaje"
+    },
+    "info": {
+      "email": "Correo",
+      "phone": "Teléfono",
+      "location": "Ubicación"
+    },
+    "footer": "© 2025 Brian. Construido con React, TypeScript y una pasión por el código limpio."
+  }
+}
