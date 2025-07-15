@@ -13,14 +13,14 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: t("projects.list.speedDash.title"),
-      description: t("projects.list.speedDash.description"),
-      image: "/api/placeholder/600/400",
-      tech: ["React", "TypeScript", "D3.js", "WebSocket", "Node.js"],
-      github: "https://github.com/oconnner72/speeddash",
-      demo: "https://speeddash.vercel.app",
+      title: t("projects.list.gameflix.title"),
+      description: t("projects.list.gameflix.description"),
+      image: "/images/gameflix.png",
+      tech: ["HTML", "JavaScript", "CSS"],
+      github: "https://github.com/oconnner72/gameflix",
+      demo: "https://gameflix-roan.vercel.app",
       featured: true,
-      category: t("projects.list.speedDash.category"),
+      category: t("projects.list.gameflix.category"),
     },
     {
       id: 2,
@@ -118,9 +118,7 @@ const Projects = () => {
                 className="group relative card-glow rounded-2xl overflow-hidden hover:shadow-neon transition-all duration-500"
               >
                 <div className="aspect-video bg-gradient-to-br from-racing-red/20 to-engine-orange/20 flex items-center justify-center">
-                  <div className="w-16 h-16 bg-racing-red/30 rounded-full flex items-center justify-center">
-                    <Zap className="w-8 h-8 text-racing-red" />
-                  </div>
+                  <img src={project.image}/>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center justify-between mb-3">

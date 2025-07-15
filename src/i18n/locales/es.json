@@ -60,10 +60,10 @@
       "demo": "Demo"
     },
     "list": {
-      "speedDash": {
-        "title": "SpeedDash Analytics",
-        "description": "Panel de control en tiempo real para monitorear métricas de rendimiento de vehículos con gráficos interactivos y visualización de datos en vivo.",
-        "category": "Full Stack"
+      "gameflix": {
+        "title": "Gameflix",
+        "description": "Plataforma web inspirada en Netflix para disfrutar videojuegos en streaming. Permite a los usuarios explorar un catálogo diverso por género, añadir títulos a su lista de favoritos.",
+        "category": "Frontend"
       },
       "racingCRM": {
         "title": "RacingCRM",
