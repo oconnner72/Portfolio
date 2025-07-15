@@ -18,12 +18,12 @@ const Contact = () => {
     threshold: 0.1,
   });
 
-  const [formData, setFormData] = useState({
+/*   const [formData, setFormData] = useState({
     name: "",
     email: "",
     subject: "",
     message: "",
-  });
+  }); */
 
   /* const [isSubmitting, setIsSubmitting] = useState(false);
 
