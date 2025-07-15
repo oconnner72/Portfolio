@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { Database, Globe, Smartphone, Settings } from "lucide-react";
+import { Database, Globe, Settings } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const Skills = () => {

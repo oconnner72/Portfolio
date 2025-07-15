@@ -8,7 +8,6 @@ import {
   Send,
   Github,
   Linkedin,
-  Twitter,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 

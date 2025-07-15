@@ -97,7 +97,7 @@ const Hero = () => {
             className="flex items-center justify-center gap-6"
           >
             <motion.a
-              href="https://github.com/brian"
+              href="https://github.com/oconnner72"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, color: "#DC143C" }}
@@ -107,7 +107,7 @@ const Hero = () => {
               <Github className="w-6 h-6" />
             </motion.a>
             <motion.a
-              href="https://linkedin.com/in/brian"
+              href="https://linkedin.com/in/brayan-ramírez-ávila-822ab534a"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, color: "#DC143C" }}
@@ -117,7 +117,7 @@ const Hero = () => {
               <Linkedin className="w-6 h-6" />
             </motion.a>
             <motion.a
-              href="mailto:brian@example.com"
+              href="mailto:brian.ramirez.a@outlook.com"
               whileHover={{ scale: 1.2, color: "#DC143C" }}
               whileTap={{ scale: 0.9 }}
               className="text-chrome-silver hover:text-racing-red transition-colors duration-300"
