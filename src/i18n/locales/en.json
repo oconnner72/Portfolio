@@ -9,7 +9,7 @@
   },
   "hero": {
     "name": "BRIAN",
-    "title": "Full Stack Developer",
+    "title": "Frontend Developer",
     "description": "Passionate about creating high-performance web applications with the precision of a race car engineer",
     "downloadResume": "Download Resume",
     "viewWork": "View My Work"
@@ -68,7 +68,7 @@
       "racingCRM": {
         "title": "RacingCRM",
         "description": "Customer relationship management system for automotive dealerships with inventory management and sales tracking.",
-        "category": "Full Stack"
+        "category": "Frontend"
       },
       "motoMeet": {
         "title": "MotoMeet",
