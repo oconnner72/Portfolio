@@ -68,7 +68,6 @@ const Hero = () => {
           </motion.div>
 
           <motion.div
-            onClick={openResume}
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
@@ -80,6 +79,7 @@ const Hero = () => {
                 boxShadow: "0 0 20px rgba(220, 20, 60, 0.5)",
               }}
               whileTap={{ scale: 0.95 }}
+              onClick={openResume}
               className="racing-gradient text-white px-8 py-4 rounded-full font-semibold flex items-center gap-2 shadow-lg"
             >
               <Download className="w-5 h-5" />

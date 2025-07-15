@@ -105,13 +105,13 @@ const Contact = () => {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="flex justify-center gap-12">
           {/* Contact Information */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="space-y-8"
+            className="space-y-8 lg:max-w-[50%]"
           >
             <div className="card-glow rounded-2xl p-8">
               <h3 className="text-2xl font-racing font-bold mb-6 text-racing-red">
@@ -166,7 +166,7 @@ const Contact = () => {
           </motion.div>
 
           {/* Contact Form */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.4 }}
@@ -270,7 +270,7 @@ const Contact = () => {
                 )}
               </motion.button>
             </form>
-          </motion.div>
+          </motion.div> */}
         </div>
 
         {/* Footer */}
