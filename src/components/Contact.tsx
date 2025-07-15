@@ -79,7 +79,7 @@ const Contact = () => {
     {
       name: "LinkedIn",
       icon: <Linkedin className="w-5 h-5" />,
-      href: "https://linkedin.com/in/brayan-ramírez-ávila-822ab534a",
+      href: "https://linkedin.com/in/brian-ramírez-ávila-822ab534a",
       color: "hover:text-speed-blue",
     },
   ];

@@ -112,7 +112,7 @@ const Hero = () => {
               <Github className="w-6 h-6" />
             </motion.a>
             <motion.a
-              href="https://linkedin.com/in/brayan-ramírez-ávila-822ab534a"
+              href="https://linkedin.com/in/brian-ramírez-ávila-822ab534a"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, color: "#DC143C" }}
