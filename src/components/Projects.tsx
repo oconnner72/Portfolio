@@ -17,7 +17,7 @@ const Projects = () => {
       description: t("projects.list.speedDash.description"),
       image: "/api/placeholder/600/400",
       tech: ["React", "TypeScript", "D3.js", "WebSocket", "Node.js"],
-      github: "https://github.com/brian/speeddash",
+      github: "https://github.com/oconnner72/speeddash",
       demo: "https://speeddash.vercel.app",
       featured: true,
       category: t("projects.list.speedDash.category"),
@@ -252,7 +252,7 @@ const Projects = () => {
             {t("projects.viewAllDescription")}
           </p>
           <motion.a
-            href="https://github.com/brian"
+            href="https://github.com/oconnner72"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}

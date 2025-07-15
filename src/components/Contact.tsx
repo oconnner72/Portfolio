@@ -53,20 +53,20 @@ const Contact = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: t("contact.info.email"),
-      value: "brian.dev@example.com",
-      href: "mailto:brian.dev@example.com",
+      value: "brian.ramirez.a@outlook.com",
+      href: "brian.ramirez.a@outlook.com",
     },
     {
       icon: <Phone className="w-5 h-5" />,
       label: t("contact.info.phone"),
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
+      value: "+52 (352) 529-5667",
+      href: "tel:+523525295667",
     },
     {
       icon: <MapPin className="w-5 h-5" />,
       label: t("contact.info.location"),
-      value: "San Francisco, CA",
-      href: "https://maps.google.com/?q=San Francisco, CA",
+      value: "La Ribera, Jalisco",
+      href: "https://maps.google.com/?q=La Ribera, Jalisco",
     },
   ];
 
@@ -74,20 +74,14 @@ const Contact = () => {
     {
       name: "GitHub",
       icon: <Github className="w-5 h-5" />,
-      href: "https://github.com/brian",
+      href: "https://github.com/oconnner72",
       color: "hover:text-chrome-silver",
     },
     {
       name: "LinkedIn",
       icon: <Linkedin className="w-5 h-5" />,
-      href: "https://linkedin.com/in/brian",
+      href: "https://linkedin.com/in/brayan-ramírez-ávila-822ab534a",
       color: "hover:text-speed-blue",
-    },
-    {
-      name: "Twitter",
-      icon: <Twitter className="w-5 h-5" />,
-      href: "https://twitter.com/brian",
-      color: "hover:text-electric-green",
     },
   ];
 

@@ -17,11 +17,11 @@ const Skills = () => {
       color: "text-racing-red",
       bgColor: "bg-racing-red/20",
       skills: [
-        { name: "React", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "Next.js", level: 85 },
+        { name: "React", level: 70 },
+        { name: "JavaScript", level: 80 },
+        { name: "Css", level: 70 },
         { name: "Tailwind CSS", level: 90 },
-        { name: "JavaScript", level: 95 },
+        { name: "HTML", level: 95 },
       ],
     },
     {
@@ -30,11 +30,10 @@ const Skills = () => {
       color: "text-engine-orange",
       bgColor: "bg-engine-orange/20",
       skills: [
-        { name: "Node.js", level: 88 },
-        { name: "Express.js", level: 85 },
-        { name: "PostgreSQL", level: 82 },
-        { name: "MongoDB", level: 80 },
-        { name: "REST APIs", level: 90 },
+        { name: "Node.js", level: 80 },
+        { name: "REST APIs", level: 70 },
+        { name: "C++", level: 50 },
+        { name: "Java", level: 30 },
       ],
     },
     {
@@ -43,26 +42,11 @@ const Skills = () => {
       color: "text-electric-green",
       bgColor: "bg-electric-green/20",
       skills: [
-        { name: "Git", level: 92 },
-        { name: "Docker", level: 78 },
-        { name: "AWS", level: 75 },
-        { name: "Linux", level: 80 },
+        { name: "Git", level: 90 },
+        { name: "Linux", level: 60 },
         { name: "CI/CD", level: 70 },
       ],
-    },
-    {
-      title: t("skills.categories.mobile"),
-      icon: <Smartphone className="w-6 h-6" />,
-      color: "text-neon-yellow",
-      bgColor: "bg-neon-yellow/20",
-      skills: [
-        { name: "React Native", level: 85 },
-        { name: "Flutter", level: 70 },
-        { name: "iOS", level: 65 },
-        { name: "Android", level: 65 },
-        { name: "PWA", level: 88 },
-      ],
-    },
+    }
   ];
 
   return (
@@ -86,7 +70,7 @@ const Skills = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
           {skillCategories.map((category, categoryIndex) => (
             <motion.div
               key={category.title}
@@ -153,7 +137,7 @@ const Skills = () => {
         </div>
 
         {/* Additional Skills */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, delay: 0.6 }}
@@ -188,7 +172,7 @@ const Skills = () => {
               </motion.span>
             ))}
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );
