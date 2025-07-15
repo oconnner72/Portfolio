@@ -5,7 +5,7 @@ import {
   Mail,
   Phone,
   MapPin,
-  Send,
+  /* Send, */
   Github,
   Linkedin,
 } from "lucide-react";
@@ -25,7 +25,7 @@ const Contact = () => {
     message: "",
   });
 
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  /* const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -47,7 +47,7 @@ const Contact = () => {
       // You would typically send this data to your backend or a service like Formspree
     }, 2000);
   };
-
+ */
   const contactInfo = [
     {
       icon: <Mail className="w-5 h-5" />,
