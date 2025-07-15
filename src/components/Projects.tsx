@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { ExternalLink, Github, Zap } from "lucide-react";
+import { ExternalLink, Github } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const Projects = () => {
