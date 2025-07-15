@@ -8,6 +8,10 @@ const Hero = () => {
     document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const openResume = () => {
+    window.open('https://www.canva.com/design/DAGtQ-szjz8/ThwZR2cRa-1abJafGA_H5A/view?utm_content=DAGtQ-szjz8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd8688eabee')
+  }
+
   return (
     <section
       id="home"
@@ -64,6 +68,7 @@ const Hero = () => {
           </motion.div>
 
           <motion.div
+            onClick={openResume}
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
