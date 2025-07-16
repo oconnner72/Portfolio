@@ -65,15 +65,15 @@
         "description": "Plataforma web inspirada en Netflix para disfrutar videojuegos en streaming. Permite a los usuarios explorar un catálogo diverso por género, añadir títulos a su lista de favoritos.",
         "category": "Frontend"
       },
-      "racingCRM": {
-        "title": "RacingCRM",
-        "description": "Sistema de gestión de relaciones con clientes para concesionarios automotrices con gestión de inventario y seguimiento de ventas.",
-        "category": "Full Stack"
+      "tenisLeagues": {
+        "title": "Tenis Leagues",
+        "description": "Sistema de creación de Torneos y Ligas de Tenis.",
+        "category": "FullStack"
       },
-      "motoMeet": {
-        "title": "MotoMeet",
-        "description": "Plataforma social para entusiastas de motocicletas para organizar paseos, compartir experiencias y conectar con otros motociclistas.",
-        "category": "Móvil"
+      "briautos": {
+        "title": "Briautos",
+        "description": "Sitio web de autos para amantes de los vehiculos clásicos.",
+        "category": "Frontend"
       },
       "turboChat": {
         "title": "TurboChat",

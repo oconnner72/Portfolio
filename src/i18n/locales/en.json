@@ -65,15 +65,15 @@
         "description": "Web platform inspired by Netflix for enjoying video games via streaming. It allows users to explore a diverse catalog by genre and add titles to their list of favorites.",
         "category": "Frontend"
       },
-      "racingCRM": {
-        "title": "RacingCRM",
-        "description": "Customer relationship management system for automotive dealerships with inventory management and sales tracking.",
-        "category": "Frontend"
+      "tenisLeagues": {
+        "title": "Tenis Leagues",
+        "description": "Tenis Leagues and Cups management system.",
+        "category": "FullStack"
       },
-      "motoMeet": {
-        "title": "MotoMeet",
-        "description": "Social platform for motorcycle enthusiasts to organize rides, share experiences, and connect with fellow riders.",
-        "category": "Mobile"
+      "briautos": {
+        "title": "Briautos",
+        "description": "Car dealer web site to showcase the best classic cars in the market.",
+        "category": "Frontend"
       },
       "turboChat": {
         "title": "TurboChat",
